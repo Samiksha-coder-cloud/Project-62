@@ -1,7 +1,7 @@
 .image1 {
     height: 200px;
-    width: 300px;
-
+    width: 200px;
+    margin: 5px;
 }
 
 body {
@@ -33,13 +33,12 @@ html {
     list-style: none;
     font-family: cursive;
     top: 0px;
-    right: 30px;
     cursor: pointer;
     color: darkred;
     margin-top: 0px;
     position: fixed;
     text-decoration: none;
-    float: right;
+    width: 100%;
 }
 
 .links {
@@ -47,6 +46,7 @@ html {
     padding-left: 15px;
     color: turquoise;
     font-size: 15px;
+    float: left;
 }
 
 .links:hover {
@@ -60,10 +60,6 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: fuchsia;
-}
-
-li {
-    float: right;
 }
 
 li a {
