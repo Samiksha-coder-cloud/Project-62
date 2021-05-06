@@ -1,0 +1,89 @@
+.image1 {
+    height: 200px;
+    width: 300px;
+
+}
+
+body {
+    text-align: center;
+    background-image: url(background.jpg);
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 30px;
+    color: red;
+}
+
+#myCarousel {
+    background-color: dodgerblue;
+}
+
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    top: 0px;
+    right: 30px;
+    cursor: pointer;
+    color: darkred;
+    margin-top: 0px;
+    position: fixed;
+    text-decoration: none;
+    float: right;
+}
+
+.links {
+    display: inline;
+    padding-left: 15px;
+    color: turquoise;
+    font-size: 15px;
+}
+
+.links:hover {
+    background-color: blueviolet;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: fuchsia;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.email h4 {
+    display: inline;
+}
+
+.email:hover {
+    font-size: 20px;
+    color: red;
+}
+
+#map {
+    height: 530px;
+    width: 900px;
+}
